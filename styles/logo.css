@@ -19,9 +19,21 @@ body {
     color: #ffffff;
     background-color: #4E47FF;
     padding: 12px 36px;
-    border-radius: 10px;
+    border-radius: 20px;
     border: none;
     cursor: pointer;
+}
+
+.number {
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.number-details {
+    font-size: 20px;
+    color: #00000050;
+    margin-top: 10px;
 }
 
 /* Header Styles */
@@ -94,23 +106,35 @@ nav {
     border-radius: 48px;
 }
 
-/* Users Section Styles */
-/* .users-container {
-    border: 2px solid red;
+/* Users Section Styles  */
+.users-container {
+    /* border: 2px solid red; */
     max-width: 1140px;
     height: 300px;
     background-color: #4E47FF10;
     border-radius: 24px;
     margin: 0 auto 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .users-content {
-    text-align: center;
-    padding: 50px 80px;
+    /* border: 2px solid black; */
+    /* text-align: center; */
+    max-width: 900px;
+    height: 200px;
+    /* margin: 0 auto 0; */
+    /* padding: 50px 80px; */
 }
 
 .users-title {
     font-size: 38px;
     font-weight: bold;
-} */
+    color: #252432;
+}
 
+.users-numbers {
+    display: flex;
+    justify-content: space-between;
+}
