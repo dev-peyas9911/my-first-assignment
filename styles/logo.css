@@ -237,7 +237,7 @@ nav {
 .form {
     /* border: 2px solid red; */
     max-width: 1140px;
-    height: 630px;
+    height: 600px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -290,4 +290,47 @@ nav {
 
 input[type="submit"] {
     margin-top: 10px;
+}
+
+/* Footer Styles */
+.footer {
+    width: 100%;
+    height: 428px;
+    background-color: #ffffff;
+    border: 1px solid #00000020;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    max-width: 530px;
+    height: 220px;
+}
+
+.footer-title {
+    font-size: 100px;
+    font-weight: 900;
+    /* margin-top: 100px; */
+}
+
+.footer-description {
+    color: #8987A1;
+    margin: 8px 0 20px 0;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    margin-right: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #8987A1;
 }
