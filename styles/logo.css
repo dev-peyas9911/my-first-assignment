@@ -19,6 +19,7 @@ body {
 .btn-primary{
     color: #ffffff;
     background-color: #4E47FF;
+    font-weight: bold;
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
@@ -42,7 +43,7 @@ body {
 /* Animation button */
 @keyframes example {
     from {background-color: #4E47FF; color: #ffffff;}
-    to {background-color: #e786f6; color: #e71616; font-weight: 600;}
+    to {background-color: #e786f6; color: #e71616; font-weight: bolder;}
 }
 
 .btn-primary:hover {
