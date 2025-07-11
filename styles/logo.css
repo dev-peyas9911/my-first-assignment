@@ -29,12 +29,14 @@ body {
     font-size: 80px;
     font-weight: bold;
     margin-top: 10px;
+    font-family: "Inter", sans-serif;
 }
 
 .number-details {
     font-size: 20px;
     color: #00000050;
     margin-top: 10px;
+    text-align: center;
 }
 
 /* Animation button */
@@ -153,11 +155,9 @@ nav {
 .users-numbers {
     display: flex;
     justify-content: space-between;
+    padding-top: 18px;
 }
 
-.number {
-    font-family: "Inter", sans-serif;
-}
 
 /* Ratings Styles */
 .ratings {
@@ -187,7 +187,7 @@ nav {
     border-radius: 14px;
     width: 360px;
     height: 240px;
-    box-shadow: 1px 1px 1.5px 1px #757575;
+    box-shadow: 1px 1px -0.5px 1px #757575;
     padding: 24px;
 }
 
@@ -296,6 +296,7 @@ nav {
     padding: 20px 32px;
     border-radius: 10px;
     border: 1px solid #D6DDED;
+    font-family: "Inter", sans-serif;
 }
 
 
@@ -303,8 +304,8 @@ nav {
     display: block;
     color: #000000;
     font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 10px;
+    font-weight: 600;
+    margin: 15px 0 5px;
 }
 
 input[type="submit"] {
